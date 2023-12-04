@@ -4,7 +4,7 @@ import React from 'react';
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello DocDoc Booking Application</Text>
+      <Text style={styles.text}>Hello Clinic Management Application</Text>
     </View>
   );
 };
