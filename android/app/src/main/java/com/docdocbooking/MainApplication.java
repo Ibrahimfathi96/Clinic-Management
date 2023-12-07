@@ -1,5 +1,8 @@
 package com.docdocbooking;
 
+//splash screen
+// import org.devio.rn.splashscreen.SplashScreenReactPackage;
+
 import android.app.Application;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
