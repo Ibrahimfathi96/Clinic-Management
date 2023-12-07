@@ -1,13 +1,13 @@
 import {View, Text} from 'react-native';
 import React from 'react';
-import styles from '../Message/styles';
+import styles from './styles';
 
-const HomeScreen = () => {
+const MessageScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>HomeScreen</Text>
+      <Text>MessageScreen</Text>
     </View>
   );
 };
 
-export default HomeScreen;
+export default MessageScreen;

@@ -2,12 +2,12 @@ import {View, Text} from 'react-native';
 import React from 'react';
 import styles from '../Message/styles';
 
-const HomeScreen = () => {
+const CalendarScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>HomeScreen</Text>
+      <Text>CalendarScreen</Text>
     </View>
   );
 };
 
-export default HomeScreen;
+export default CalendarScreen;

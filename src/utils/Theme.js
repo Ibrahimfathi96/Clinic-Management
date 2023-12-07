@@ -1,5 +1,6 @@
 export const COLORS = {
   primaryColor: '##247CFF',
+  black: '#242424',
 };
 
 export const BORDERRADIUS = {

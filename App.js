@@ -1,27 +1,17 @@
 import React, {useEffect} from 'react';
-import {View, Text, StyleSheet} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
+import {NavigationContainer} from '@react-navigation/native';
+import AppNavigator from './src/navigation/AppNavigator';
 
 const App = () => {
   useEffect(() => {
     SplashScreen.hide();
   }, []);
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello Clinic Management Application</Text>
-    </View>
+    <NavigationContainer>
+      <AppNavigator />
+    </NavigationContainer>
   );
 };
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-});
 
 export default App;
