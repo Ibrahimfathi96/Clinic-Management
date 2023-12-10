@@ -1,19 +1,27 @@
 import {StyleSheet} from 'react-native';
-import {FONTSIZE} from '../../utils/Theme';
+import {COLORS} from '../../utils/Theme';
 const styles = StyleSheet.create({
-  icon: {
-    fontSize: 22,
+  image: {
+    width: 28,
+    height: 28,
   },
-  text: {
-    fontSize: 15,
-    fontWeight: '400',
-    fontFamily: FONTSIZE.size_10,
+  imageWrapper: {
+    width: 32,
+    height: 32,
+    borderRadius: 18,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
-  tabBar: {
-    borderTopLeftRadius: 24,
-    borderTopRightRadius: 24,
-    height: 60,
-    paddingTop: 10,
+  customButtonStyle: {
+    backgroundColor: COLORS.primaryColor,
+    marginBottom: 50,
+    borderWidth: 5,
+    borderColor: 'white',
+    width: 80,
+    height: 80,
+    borderRadius: 28,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
 export default styles;
